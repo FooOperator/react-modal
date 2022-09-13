@@ -93,7 +93,7 @@ export const Modal = ({
 	return (
 		<dialog
 			ref={modalProps.thisRef}
-			className="fixed top-40 w-96 h-44   rounded-md bg-blue-200"
+			className="fixed top-40 w-96 h-44 rounded-md bg-blue-200"
 			open={modalProps.isOpen}>
 			<div className="flex">
 				<button onClick={modalProps.close} className="ml-auto">
