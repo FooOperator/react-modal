@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind variants;
+
+@layer base {
+	.button-group button {
+		@apply border-2 bg-blue-300 hover:brightness-105 rounded-md px-2 py-0.5 text-lg;
+	}
+}
